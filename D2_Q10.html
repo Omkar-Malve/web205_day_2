@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coinswitch page</title>
+    <style>
+        * {
+            margin-left: 0px;
+            margin-right: 0px;
+            font-family: sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            margin: 15px 50px;
+            background-color: white;
+        }
+
+        nav > div:nth-child(2) > select {
+            border: none;
+            font-size: 15px;
+            font-family: sans-serif;
+        }
+
+        nav > div:nth-child(2) > a {
+            text-decoration: none;
+        }
+
+        nav > div:nth-child(2) > button {
+            background-color: rgb(133, 225, 133);
+            padding: 10px 20px;
+            border: none;
+            border-radius: 10px;
+            font-size: 15px;
+        }
+
+        nav > div:nth-child(2) {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 60%;
+        }
+
+        #content {
+            background: linear-gradient(rgb(209, 227, 242),white);
+            padding: 60px 80px ;
+            /* border-radius: 0px; */
+            position: relative;
+            z-index: 2;
+            border-radius: 15px;
+        }
+
+        #content > div:nth-child(2) > h1:nth-child(1) {
+            font-size: 85px;
+        }
+
+        #content > div:nth-child(2) > h1:nth-child(2) {
+            font-size: 85px;
+            color: blue;
+            margin-top: -40px;
+        }
+
+        #content > div:nth-child(3) > p {
+            font-size: 40px;
+            /* width: 70%; */
+        }
+
+        #content > div:nth-child(1) > img {
+            padding: 30px;
+        }
+
+        #content > button {
+            color: white;
+            background-color: black;
+            padding: 13px 35px;
+            border-radius: 13px;
+            font-size: 16px;
+
+        }
+
+        #back_grid {
+            display: grid;
+            grid-template-columns: repeat(18, 1fr);
+            grid-template-rows: repeat(20,70px);
+            position: absolute;
+            width: 100%;
+        }
+
+        #back_grid > div {
+            border: .5px solid hsla(240, 1%, 86%, .847);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <img src="https://coinswitch.co/_next/static/media/logo.01525825.svg" alt="coin">
+        </div>
+        <div>
+            <select name="products" id="products">
+                <option value="products">Products</option>
+            </select>
+            <a href="">Coins</a>
+            <a href="">Ventures</a>
+            <a href="">Blog</a>
+            <select name="Company" id="Company">
+                <option value="company">Company</option>
+            </select>
+            <button>Login To Pro</button>
+        </div>
+    </nav>
+    <div id="back_grid">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div id="content">
+        <div>
+            <img src="https://coinswitch.co/_next/static/media/logo.01525825.svg" alt="coin">
+        </div>
+        <div>
+            <h1>Your Innovation</h1>
+            <h1>Our Fuel</h1>
+        </div>
+        <div>
+            <p>CoinSwitch Ventures  invests in the most promising Web3 and <br> Blockchain projects in india. Does that sounds like you?</p>
+        </div>
+        <button>Apply Now</button>
+    </div>
+</body>
+</html>
